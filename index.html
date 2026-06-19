@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>S'NEGUGU ZULU | Informatics Portfolio</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="container nav-flex">
+    <div class="logo">S'NEGUGU ZULU</div>
+    <div class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<main>
+
+  <section id="home" class="hero">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <i class="fas fa-code"></i> BSc Informatics · Final Year
+        </div>
+        <h1>S'NEGUGU SINDISWA <span class="highlight">ZULU</span></h1>
+        <p class="hero-title">Aspiring <span class="highlight-purple">Data Analyst</span> &amp; <span class="highlight-blue">Scientist</span></p>
+        <div class="btn-group">
+          <a href="#projects" class="btn-primary"><i class="fas fa-folder-open"></i> View Projects</a>
+          <a href="#" id="downloadCvBtn" class="btn-download"><i class="fas fa-download"></i> Download CV</a>
+        </div>
+      </div>
+      <div class="hero-image-wrapper">
+        <div class="profile-image-container">
+        
+          <img src="snesphoto.heic" alt="S'NEGUGU SINDISWA ZULU" class="profile-image">
+          <div class="profile-ring"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Professional Summary Section -->
+  <section id="summary">
+    <div class="container">
+      <h2 class="section-title">Professional Summary</h2>
+      <div class="summary-card">
+        <p>A motivated final-year BSc Informatics student with a strong passion for building practical software solutions. I am currently also pursuing the Microsoft Azure AZ-900 certification to strengthen my cloud computing fundamentals. My project portfolio demonstrates a commitment to clean code, user-centered design and leveraging technology to solve everyday problems. I am a proactive learner and active member of the Developer Society.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+        <!-- MySQL Project -->
+        <div class="project-card">
+          <div class="project-icon"><i class="fas fa-database"></i></div>
+          <h3>Small Business DBMS(Database Management System)</h3>
+          <p>Designed and implemented a relational database for a small business to manage customers, orders, inventory, and employees. Created complex SQL queries (joins, subqueries, aggregate functions) and optimized for data integrity and performance.</p>
+          <div class="project-tech">
+            <span class="tech-tag">MySQL</span>
+            <span class="tech-tag">SQL</span>
+          </div>
+        </div>
+        <!-- To-Do List Application -->
+        <div class="project-card">
+          <div class="project-icon"><i class="fas fa-check-square"></i></div>
+          <h3>To-Do List Application</h3>
+          <p>An interactive task management web app that allows users to add, edit, delete, and mark tasks as complete. Built with Python.</p>
+          <div class="project-tech">
+            <span class="tech-tag">Python</span>
+          </div>
+        </div>
+        <!-- Calculator -->
+        <div class="project-card">
+          <div class="project-icon"><i class="fas fa-calculator"></i></div>
+          <h3>Calculator</h3>
+          <p>A clean calculator supporting basic arithmetic operations with a responsive layout built with Python.</p>
+          <div class="project-tech">
+            <span class="tech-tag">Python</span>
+          </div>
+        </div>
+        <!-- E-Commerce Skincare Website -->
+        <div class="project-card">
+          <div class="project-icon"><i class="fas fa-store"></i></div>
+          <h3>E-Commerce Skincare Website</h3>
+          <p>A fully responsive e-commerce platform for skincare products, featuring product listings, a shopping cart, user authentication, and a checkout system. Built with HTML, CSS, JavaScript.</p>
+          <div class="project-tech">
+            <span class="tech-tag">HTML/CSS</span>
+            <span class="tech-tag">JavaScript</span>
+          </div>
+        </div>
+        <!-- Expense Tracker CLI -->
+        <div class="project-card project-card-featured">
+          <div class="project-icon"><i class="fas fa-coins"></i></div>
+          <h3>Expense Tracker CLI</h3>
+          <p>A CLI expense tracker built using Python and MySQL. Add, view and delete expenses with monthly summaries and category filtering.</p>
+          <div class="project-features">
+            <span class="feature-item"><i class="fas fa-plus-circle"></i> Add expenses with amount, description, category &amp; date</span>
+            <span class="feature-item"><i class="fas fa-eye"></i> View all expenses incurred</span>
+            <span class="feature-item"><i class="fas fa-chart-pie"></i> Monthly summary reports by category</span>
+            <span class="feature-item"><i class="fas fa-trash"></i> Delete expenses by ID</span>
+            <span class="feature-item"><i class="fas fa-database"></i> Persistent storage using MySQL</span>
+            <span class="feature-item"><i class="fas fa-tags"></i> Categories: Food, Transport, Entertainment, Bills, Shopping, Health, Other</span>
+          </div>
+          <div class="project-tech">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">MySQL</span>
+          </div>
+        </div>
+      </div>
+      <div class="github-showcase">
+        <a href="https://github.com/Snegugu-Zulu" target="_blank" class="github-showcase-link">
+          <i class="fab fa-github"></i> Explore more projects on GitHub →
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <div class="container">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-wrapper">
+        <div class="skill-category">
+          <h3><i class="fas fa-code"></i> Front-End Development</h3>
+          <div class="skill-items">
+            <span class="skill-item">CSS</span>
+            <span class="skill-item">HTML</span>
+            <span class="skill-item">JavaScript</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3><i class="fas fa-server"></i> Back-End Development</h3>
+          <div class="skill-items">
+            <span class="skill-item">JavaScript</span>
+            <span class="skill-item">Python</span>
+            <span class="skill-item">C++</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3><i class="fas fa-database"></i> Databases</h3>
+          <div class="skill-items">
+            <span class="skill-item">MySQL</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3><i class="fas fa-users"></i> Soft Skills</h3>
+          <div class="skill-items">
+            <span class="skill-item">Problem-solving</span>
+            <span class="skill-item">Leadership</span>
+            <span class="skill-item">Collaboration</span>
+            <span class="skill-item">Adaptability</span>
+            <span class="skill-item">Communication</span>
+            <span class="skill-item">Critical thinking</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications & Accomplishments -->
+  <section id="certifications">
+    <div class="container">
+      <h2 class="section-title">Certifications & Accomplishments</h2>
+      <div class="info-row">
+        <div class="info-card">
+          <h3><i class="fas fa-certificate"></i> Microsoft Azure AZ-900 certification</h3>
+          <p>(Cloud Fundamentals) — <span class="status-badge">In Progress</span></p>
+        </div>
+        <div class="info-card">
+          <h3><i class="fas fa-trophy"></i> Hackathon 2024</h3>
+          <p>Participant — 06/2024</p>
+        </div>
+        <div class="info-card">
+          <h3><i class="fas fa-users"></i> Developer Society</h3>
+          <p>Active Member</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section - Email, GitHub & CV in Bubbles -->
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title">Get In Touch</h2>
+      <div class="contact-grid">
+        <div class="contact-card">
+          <i class="fas fa-envelope"></i>
+          <h3>Email</h3>
+          <p>sneguguzulu19@icloud.com</p>
+        </div>
+        <div class="contact-card">
+          <i class="fab fa-github"></i>
+          <h3>GitHub</h3>
+          <p>github.com/Snegugu-Zulu</p>
+          <a href="https://github.com/Snegugu-Zulu" target="_blank" class="contact-link-btn">Visit Profile →</a>
+        </div>
+        <div class="contact-card contact-card-download">
+          <i class="fas fa-download"></i>
+          <h3>Resume</h3>
+          <a href="#" id="downloadCvBtnContact" class="contact-download-link">Download CV</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bottom Banner / Footer -->
+  <footer class="footer-banner">
+    <div class="container banner-content">
+      <p class="banner-copyright">© 2026 S'NEGUGU SINDISWA ZULU — BSc Informatics</p>
+      <p class="banner-tagline">code • run • repeat</p>
+    </div>
+  </footer>
+</main>
+
+<script>
+  // Function to generate and download CV/Resume as HTML
+  function downloadCV() {
+    const cvContent = `
+      <!DOCTYPE html>
+      <html>
+      <head>
+        <meta charset="UTF-8">
+        <title>S'NEGUGU SINDISWA ZULU - Resume</title>
+        <style>
+          body {
+            font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+            line-height: 1.5;
+            color: #1a1a2e;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px;
+            background: white;
+          }
+          h1 {
+            font-size: 28px;
+            margin-bottom: 5px;
+            color: #4c1d95;
+          }
+          .subhead {
+            color: #4a5568;
+            border-bottom: 2px solid #c4b5fd;
+            padding-bottom: 15px;
+            margin-bottom: 20px;
+          }
+          .contact-info {
+            margin-bottom: 25px;
+            color: #2d3748;
+          }
+          .contact-info a {
+            color: #7c3aed;
+            text-decoration: none;
+          }
+          h2 {
+            font-size: 20px;
+            color: #4c1d95;
+            margin-top: 25px;
+            margin-bottom: 10px;
+            border-left: 4px solid #c4b5fd;
+            padding-left: 12px;
+          }
+          .project, .skill-cat {
+            margin-bottom: 15px;
+          }
+          .project-title {
+            font-weight: 700;
+            font-size: 16px;
+          }
+          .project-desc {
+            margin-top: 5px;
+            color: #4a5568;
+          }
+          .project-features {
+            margin-top: 8px;
+            padding-left: 20px;
+            font-size: 14px;
+            color: #4a5568;
+          }
+          .project-features li {
+            margin-bottom: 4px;
+          }
+          .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 8px;
+          }
+          .skill-badge {
+            background: #e2e8f0;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 13px;
+          }
+          .cert-item {
+            margin-bottom: 12px;
+          }
+          hr {
+            margin: 20px 0;
+            border: none;
+            border-top: 1px solid #e2e8f0;
+          }
+          .status {
+            background: #fef3c7;
+            display: inline-block;
+            padding: 2px 10px;
+            border-radius: 20px;
+            font-size: 12px;
+          }
+        </style>
+      </head>
+      <body>
+        <h1>S'NEGUGU SINDISWA ZULU</h1>
+        <div class="subhead">BSc Informatics Student | Final Year</div>
+        <div class="contact-info">
+          <strong>Email:</strong> sneguguzulu19@icloud.com<br>
+          <strong>GitHub:</strong> <a href="https://github.com/Snegugu-Zulu">github.com/Snegugu-Zulu</a>
+        </div>
+
+        <h2>Professional Summary</h2>
+        <p>A motivated final-year BSc Informatics student with a strong passion for building practical software solutions. From e-commerce platforms to interactive web applications and CLI tools, I have applied my programming skills across various domains. I am currently also pursuing the Microsoft Azure AZ-900 certification to strengthen my cloud computing fundamentals. My project portfolio demonstrates a commitment to clean code, user-centered design and leveraging technology to solve everyday problems. I am a proactive learner, freelance developer and active member of the Developer Society.</p>
+
+        <h2>Projects</h2>
+        <div class="project">
+          <div class="project-title">• MySQL Project (Database Management System)</div>
+          <div class="project-desc">Designed and implemented a relational database for a small business to manage customers, orders, inventory, and employees. Created complex SQL queries (joins, subqueries, aggregate functions) and optimized for data integrity and performance.</div>
+        </div>
+        <div class="project">
+          <div class="project-title">• To-Do List Application</div>
+          <div class="project-desc">An interactive task management web app that allows users to add, edit, delete, and mark tasks as complete. Built with Python.</div>
+        </div>
+        <div class="project">
+          <div class="project-title">• Calculator</div>
+          <div class="project-desc">A clean calculator supporting basic arithmetic operations with a responsive layout built with Python.</div>
+        </div>
+        <div class="project">
+          <div class="project-title">• E-Commerce Skincare Website</div>
+          <div class="project-desc">A fully responsive e-commerce platform for skincare products, featuring product listings, a shopping cart, user authentication, and a checkout system. Built with HTML, CSS, JavaScript, and a backend using SQL for product and order management.</div>
+        </div>
+        <div class="project">
+          <div class="project-title">• Expense Tracker CLI</div>
+          <div class="project-desc">A CLI expense tracker built using Python and MySQL. Add, view and delete expenses with monthly summaries and category filtering.</div>
+          <ul class="project-features">
+            <li>Add expenses with amount, description, category and date</li>
+            <li>View all expenses incurred</li>
+            <li>Generate monthly summary reports by category</li>
+            <li>Delete expenses by ID</li>
+            <li>Persistent storage using MySQL database</li>
+            <li>Categories pre-loaded: Food, Transport, Entertainment, Bills, Shopping, Health, Other</li>
+          </ul>
+        </div>
+
+        <h2>Skills</h2>
+        <div><strong>Front-End:</strong> CSS, HTML, JavaScript</div>
+        <div><strong>Back-End:</strong> JavaScript, Python, C++</div>
+        <div><strong>Databases:</strong> MySQL</div>
+        <div><strong>Soft Skills:</strong> Problem-solving, Leadership, Collaboration, Adaptability, Communication, Critical thinking</div>
+
+        <h2>Certifications & Accomplishments</h2>
+        <div class="cert-item">• Microsoft Azure AZ-900 certification (Cloud Fundamentals) — <span class="status">In Progress</span></div>
+        <div class="cert-item">• Hackathon 2024 — Participant (06/2024)</div>
+        <div class="cert-item">• Developer Society — Active Member</div>
+
+        <hr>
+        <p style="font-size: 12px; color: #718096; text-align: center;">© 2026 S'NEGUGU SINDISWA ZULU</p>
+      </body>
+      </html>
+    `;
+
+    const blob = new Blob([cvContent], { type: 'text/html' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'Snegugu_Zulu_Resume.html';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+  }
+
+  // Attach download event to all buttons
+  const downloadBtn1 = document.getElementById('downloadCvBtn');
+  const downloadBtn2 = document.getElementById('downloadCvBtnContact');
+
+  if (downloadBtn1) {
+    downloadBtn1.addEventListener('click', function(e) {
+      e.preventDefault();
+      downloadCV();
+    });
+  }
+
+  if (downloadBtn2) {
+    downloadBtn2.addEventListener('click', function(e) {
+      e.preventDefault();
+      downloadCV();
+    });
+  }
+</script>
+</body>
+</html>
